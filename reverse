@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class ReverseNuber {
+	
+public static void main(String args[])
+{
+	sumit_try();
+}
+
+
+
+	  public static void sumit_try()
+	  {
+	      
+	      System.out.println("Enter the number you want to be reversed" ) ;
+	      Scanner input = new Scanner(System.in) ;
+	      int number = input.nextInt() ;
+	      String sReverse = Integer.toString(number) ;
+	      String reverse =new StringBuffer(sReverse).reverse().toString() ;
+	      int Reversed = Integer.parseInt(reverse) ;
+	      System.out.print("The number " + number+ " reversed is " + Reversed) ;
+	  }
+}
